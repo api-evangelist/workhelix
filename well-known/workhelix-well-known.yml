@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of workhelix.com and app.workhelix.com
+hosts:
+- host: https://workhelix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+- host: https://app.workhelix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  No well-known discovery documents are published on either host. The apex
+  serves the marketing site; app.workhelix.com redirects to /login for the
+  Nucleus product. No API, docs, developer, status, trust, or security
+  subdomains resolve in DNS (api., docs., developer., developers., status.,
+  trust., security. all NXDOMAIN as of the probe date).

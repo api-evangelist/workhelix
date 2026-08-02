@@ -1,7 +1,25 @@
 aid: workhelix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workhelix.png
 name: Workhelix
-description: Workhelix is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Workhelix is an enterprise platform for measuring and growing the return
+  on investment of AI initiatives. Its Nucleus product connects workforce data and
+  AI usage history to rank AI opportunities by impact, identify high-performing superusers,
+  surface adoption gaps, and estimate time and cost savings. The company was co-founded
+  by economists Erik Brynjolfsson (Stanford) and Andrew McAfee (MIT) with CEO James
+  Milin and research director Daniel Rock (Wharton), is backed by Bloomberg Beta,
+  and serves enterprise customers including Autodesk, Nasdaq, and LogicMonitor. Workhelix
+  publishes no public API or developer program as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/workhelix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Workforce Analytics
+- AI ROI
+- Enterprise Software
+- Productivity
+- Task Analysis
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://workhelix.com/
+- type: Login
+  url: https://app.workhelix.com/login
+- type: Careers
+  url: https://workhelix.com/careers
+- type: Media
+  url: https://workhelix.com/media
+- type: PrivacyPolicy
+  url: https://workhelix.com/privacy-policy
+- type: TermsOfService
+  url: https://workhelix.com/terms-of-service
+- type: TermsOfUse
+  url: https://workhelix.com/terms-of-use
+- type: DomainSecurity
+  url: security/workhelix-domain-security.yml
+- type: LLMsTxt
+  url: llms/workhelix-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

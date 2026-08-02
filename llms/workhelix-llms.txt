@@ -1,0 +1,23 @@
+# Workhelix
+
+> Workhelix is an enterprise platform for measuring and growing the return on investment of AI initiatives. Its Nucleus product connects workforce data and AI usage history to rank AI opportunities by impact, identify high-performing superusers, surface adoption gaps, and estimate time and cost savings. Co-founded by economists Erik Brynjolfsson (Stanford) and Andrew McAfee (MIT) with CEO James Milin and research director Daniel Rock (Wharton); backed by Bloomberg Beta. Customers include Autodesk, Nasdaq, and LogicMonitor.
+
+Workhelix publishes no public API, developer documentation, SDKs, or machine-readable discovery documents as of 2026-07-21. The Nucleus product is accessed through a hosted application at app.workhelix.com.
+
+## Company
+
+- [Website](https://workhelix.com/): Company homepage and Nucleus product overview
+- [Media & Research](https://workhelix.com/media): Press coverage and academic research from the founding team, including "GPTs are GPTs" (arXiv, with OpenAI) and "Generative AI at Work" (NBER)
+- [Careers](https://workhelix.com/careers): Open roles
+- [Application login](https://app.workhelix.com/login): Nucleus product sign-in
+
+## Legal
+
+- [Privacy Policy](https://workhelix.com/privacy-policy)
+- [Terms of Use](https://workhelix.com/terms-of-use)
+- [Terms of Service](https://workhelix.com/terms-of-service)
+
+## API Evangelist profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/workhelix/refs/heads/main/apis.yml): Machine-readable profile of this company in the API Evangelist network
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/workhelix/refs/heads/main/security/workhelix-domain-security.yml): Probed TLS/HSTS/DNS security posture
