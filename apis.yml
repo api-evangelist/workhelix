@@ -32,6 +32,9 @@ description: Workhelix is an enterprise platform for measuring and growing the r
   and serves enterprise customers including Autodesk, Nasdaq, and LogicMonitor. Workhelix
   publishes no public API or developer program as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/workhelix/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Workhelix publishes no public API or developer program as of July 2026."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
